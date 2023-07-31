@@ -2,10 +2,10 @@ import React from 'react'
 
 const Card = ({title,price ,discountPercentage,brand,description,thumbnail}) => {
   return (
-    <div  className=" flex justify-between items-center rounded-lg mx-5 my-2  bg-gray-200 py-5 px-2 ">
-     <div className='flex w-1/2 justify-between'>  
+    <div  className=" flex phone:flex-col phone:my-5 phone:gap-2 justify-between items-center rounded-lg mx-5 my-2  bg-gray-200 py-5 px-2 ">
+     <div className='flex phone:flex-col w-1/2 phone:w-3/4 phone:gap-4 justify-between '>  
      <img src={thumbnail} className='w-32 object-cover' alt="" />
-<div className='w-[63%]'>
+<div className='w-[63%] phone:w-full'>
     
     
     
